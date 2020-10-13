@@ -120,6 +120,7 @@
             /*===========  Start  Submit Button  =============*/
             
             .btn-submit-form {
+                margin-bottom: 20px !important;
                 border-radius: 4px;
                 padding: 13px 54px 15px;
                 background-color: rgb(109, 216, 255);
