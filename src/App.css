@@ -1,0 +1,224 @@
+            .MuiFormControl-marginNormal {
+                margin-top: '10px !important'
+            }
+            /*===========  Start  All tittle Of The Form =============*/
+            
+            .tittle {
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: -0.2px;
+                font-family: CircularStd;
+                font-weight: 700;
+            }
+            /*===========  End  All tittle Of The Form =============*/
+            /*===========  Start  Slide looking work =============*/
+            
+            .slider {
+                border: '1px solid black';
+            }
+            /*===========  End  Slide looking work =============*/
+            /*===========  Start  Top Heading & image =============*/
+            
+            .title1 {
+                font-size: 25px;
+                line-height: 36px;
+                letter-spacing: -0.33px;
+                margin: 0px;
+                padding-top: 5px;
+            }
+            
+            .heading {
+                display: flex;
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            
+            .heading .icon {
+                flex: 0 0 90px;
+                margin-right: 18px;
+            }
+            
+            .heading-row {
+                display: flex;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+                position: relative;
+                margin-bottom: 20px;
+            }
+            /*===========  End  Top Heading & image =============*/
+            /*===========  Start  Schedule Call  =============*/
+            
+            .meeting {
+                position: relative;
+                font-size: 14px;
+                line-height: 19px;
+                color: rgb(61, 61, 61);
+                left: 25px;
+            }
+            
+            .heading-row .meeting::before {
+                content: "";
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                background: rgb(239, 83, 102);
+                top: 2px;
+                left: -20px;
+                position: absolute;
+            }
+            
+            .day {
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 19px;
+                color: rgb(95, 95, 95);
+                font-family: Graphik;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .time-slot select {
+                appearance: none;
+                border: 0px;
+                background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSI5cHgiIHZpZXdCb3g9IjAgMCAxMiA5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1NC4xICg3NjQ5MCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+UGF0aDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJDb250YWN0LVVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI3OS4wMDAwMDAsIC0yMDAyLjAwMDAwMCkiIGZpbGw9IiM2REQ4RkYiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTY1LjAwMDAwMCwgNzIwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTEyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMTYwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MjAuMDAwMDAwLCAxMTI2LjY0NzA1OSkgcm90YXRlKC05MC4wMDAwMDApIHRyYW5zbGF0ZSgtNzIwLjAwMDAwMCwgLTExMjYuNjQ3MDU5KSAiIHBvaW50cz0iNzIxLjk0ODk2IDExMzIuMjk0MTIgNzE2IDExMjYuNjQ3MjQgNzIxLjk0ODk2IDExMjEgNzI0IDExMjIuOTQ2ODkgNzIwLjEwMTMyNiAxMTI2LjY0NzI0IDcyNCAxMTMwLjM0NzU4Ij48L3BvbHlnb24+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) 100% 50% no-repeat transparent;
+                font-weight: 500;
+                margin-left: 7px;
+                font-size: 14px;
+                line-height: 19px;
+                padding-right: 20px;
+            }
+            
+            .time-zone {
+                display: flex;
+                font-size: 14px;
+                line-height: 19px;
+                font-weight: 400;
+                font-family: Graphik;
+                margin-right: 20px;
+            }
+            
+            .flex-row {
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 6px;
+                padding-bottom: 11px;
+                padding-left: 12px;
+            }
+            
+            .time-zone select {
+                border: 0px;
+                appearance: none;
+                background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMTJweCIgaGVpZ2h0PSI5cHgiIHZpZXdCb3g9IjAgMCAxMiA5IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1NC4xICg3NjQ5MCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+UGF0aDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJDb250YWN0LVVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTI3OS4wMDAwMDAsIC0yMDAyLjAwMDAwMCkiIGZpbGw9IiM2REQ4RkYiPgogICAgICAgICAgICA8ZyBpZD0iR3JvdXAtNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNTY1LjAwMDAwMCwgNzIwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTEyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjAwMDAwMCwgMTYwLjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg3MjAuMDAwMDAwLCAxMTI2LjY0NzA1OSkgcm90YXRlKC05MC4wMDAwMDApIHRyYW5zbGF0ZSgtNzIwLjAwMDAwMCwgLTExMjYuNjQ3MDU5KSAiIHBvaW50cz0iNzIxLjk0ODk2IDExMzIuMjk0MTIgNzE2IDExMjYuNjQ3MjQgNzIxLjk0ODk2IDExMjEgNzI0IDExMjIuOTQ2ODkgNzIwLjEwMTMyNiAxMTI2LjY0NzI0IDcyNCAxMTMwLjM0NzU4Ij48L3BvbHlnb24+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==) 100% 50% no-repeat transparent;
+                font-weight: 500;
+                margin-left: 7px;
+                font-size: 14px;
+                line-height: 19px;
+                padding-right: 20px;
+            }
+            /*===========  End  Schedule Call  =============*/
+            /*===========  Start  Submit Button  =============*/
+            
+            .btn-submit-form {
+                border-radius: 4px;
+                padding: 13px 54px 15px;
+                background-color: rgb(109, 216, 255);
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 7px -2px;
+                border: 1px solid rgb(109, 216, 255);
+                position: relative;
+                overflow: hidden;
+                z-index: 1;
+                text-align: center;
+                line-height: 19px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 600;
+                letter-spacing: 1.6px;
+                text-transform: uppercase;
+                color: rgb(255, 255, 255);
+                -webkit-box-align: center;
+                align-items: center;
+                transition: color 0.15s ease-in-out 0s;
+                display: inline-block;
+            }
+            
+            .btn-submit-form:hover {
+                background: white;
+                color: rgb(109, 216, 255)
+            }
+            
+            .btn-submit-form:hover::before {
+                transform: translateY(0px);
+                transition: all 0.2s ease-in-out 0s
+            }
+            /*===========  End  Submit Button  =============*/
+            /*===========  Start code for upload =============*/
+            
+            .container-file-upload-row {
+                display: flex;
+                margin-bottom: 22px;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row {
+                width: 100%;
+                position: relative;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row label {
+                display: flex;
+                padding: 18px 20px;
+                -webkit-box-align: center;
+                align-items: center;
+                -webkit-box-pack: justify;
+                justify-content: space-between;
+                cursor: pointer;
+                border: 1px dashed rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+            }
+            
+            .wrapper-input-file-row .file-input {
+                height: 100%;
+                opacity: 0;
+                overflow: hidden;
+                position: absolute;
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                cursor: pointer;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row label .row-wrap {
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row label .row-wrap .button {
+                background: rgb(109, 216, 255);
+                border-radius: 4px;
+                box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 7px -2px;
+                padding: 9px 23px 11px;
+                font-size: 16px;
+                letter-spacing: 1.6px;
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row label .file-content {
+                display: flex;
+                -webkit-box-align: center;
+                align-items: center;
+                position: relative;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row label .file-content .icon {
+                margin-right: 10px;
+            }
+            
+            .container-file-upload-row .wrapper-input-file-row label .file-content .icon img {
+                content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjVweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjUgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCAxMDwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJDb250YWN0LVVzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNjAyLjAwMDAwMCwgLTE1MDUuMDAwMDAwKSIgZmlsbD0iIzhGOTk5RSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC03IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1NjUuMDAwMDAwLCA3MjAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0iR3JvdXAtMTIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAxNjAuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgPGcgaWQ9Ikdyb3VwLTEwIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNy4wMDAwMDAsIDYyNS4wMDAwMDApIj4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTI0LjU3OTE3NDQsMTYuNDM3NTI2OSBDMjQuMjk5MTY3NywxNi4xNDU3NTExIDIzLjk1ODM4MTYsMTYgMjMuNTU3NzEwNSwxNiBMMTcuMTQyNDQ4MiwxNiBDMTYuOTMyMjcyMiwxNi41ODMyNzggMTYuNTc5MTE5NiwxNy4wNjI0MDEyIDE2LjA4MzM1ODksMTcuNDM3MzY5NiBDMTUuNTg3Mzg3OCwxNy44MTIzOTI3IDE1LjAzNDE2MjgsMTguMDAwMDEzNyAxNC40MjMzMTU4LDE4LjAwMDAxMzcgTDEwLjU3Njc4OTUsMTguMDAwMDEzNyBDOS45NjU4ODk4MSwxOC4wMDAwMTM3IDkuNDEyNDU0MzgsMTcuODEyMzM3OSA4LjkxNjc5ODkzLDE3LjQzNzM2OTYgQzguNDIwOTMyOTgsMTcuMDYyNDAxMiA4LjA2Nzk5MDk0LDE2LjU4MzMzMjggNy44NTc2NTcwNiwxNiBMMS40NDIyODk0OCwxNiBDMS4wNDE3MjM2NywxNiAwLjcwMTIwMDY0NSwxNi4xNDU3NTExIDAuNDIwNjY3NzY0LDE2LjQzNzUyNjkgQzAuMTQwMTg3NTA2LDE2LjcyODk3NDQgMCwxNy4wODMxNDQ2IDAsMTcuNDk5OTI4MiBMMCwyMi41MDAyOTA4IEMwLDIyLjkxNjgwMDYgMC4xNDAxODc1MDYsMjMuMjcxNDA4NyAwLjQyMDY2Nzc2NCwyMy41NjI2MzczIEMwLjcwMTE0ODAyMiwyMy44NTQzMDM2IDEuMDQxNjcxMDUsMjQgMS40NDIyODk0OCwyNCBMMjMuNTU3OTIxLDI0IEMyMy45NTgzODE2LDI0IDI0LjI5OTE2NzcsMjMuODU0MzAzNiAyNC41NzkzMzIyLDIzLjU2MjYzNzMgQzI0Ljg1OTkxNzcsMjMuMjcxMDI1NiAyNSwyMi45MTY4MDA2IDI1LDIyLjUwMDI5MDggTDI1LDE3LjQ5OTkyODIgQzI1LDE3LjA4MzE0NDYgMjQuODU5OTE3NywxNi43MjkzNTc1IDI0LjU3OTE3NDQsMTYuNDM3NTI2OSBaIE0xOC45NDU1NzMxLDIxLjcwMzMzOTMgQzE4Ljc1NTAyNTUsMjEuOTAxMzA0NyAxOC41Mjk1ODg4LDIyLjAwMDQyNDIgMTguMjY5MTU3OSwyMi4wMDA0MjQyIEMxOC4wMDg3MjcsMjIuMDAwNDI0MiAxNy43ODM2MDYxLDIxLjkwMTMwNDcgMTcuNTkzMTExLDIxLjcwMzMzOTMgQzE3LjQwMjkzMTcsMjEuNTA1NTkyOSAxNy4zMDc4NDIxLDIxLjI3MTA2NjcgMTcuMzA3ODQyMSwyMS4wMDAxOTg0IEMxNy4zMDc4NDIxLDIwLjcyOTMzMDEgMTcuNDAyOTMxNywyMC40OTQ2OTQ0IDE3LjU5MzExMSwyMC4yOTcwNTc1IEMxNy43ODM2MDYxLDIwLjA5OTMxMTEgMTguMDA4NzI3LDE5Ljk5OTk3MjYgMTguMjY5MTU3OSwxOS45OTk5NzI2IEMxOC41Mjk1ODg4LDE5Ljk5OTk3MjYgMTguNzU0OTcyOSwyMC4wOTkyNTYzIDE4Ljk0NTU3MzEsMjAuMjk3MDU3NSBDMTkuMTM1Njk5OCwyMC40OTQ2Mzk3IDE5LjIzMDg0MjEsMjAuNzI5MzMwMSAxOS4yMzA4NDIxLDIxLjAwMDE5ODQgQzE5LjIzMDg0MjEsMjEuMjcxMDY2NyAxOS4xMzU2OTk4LDIxLjUwNTUzODIgMTguOTQ1NTczMSwyMS43MDMzMzkzIFogTTIyLjc5MTQ2NzksMjEuNzAzMzM5MyBDMjIuNjAxMjg4NiwyMS45MDEzMDQ3IDIyLjM3NTg1MiwyMi4wMDA0MjQyIDIyLjExNTM2ODQsMjIuMDAwNDI0MiBDMjEuODU0OTkwMSwyMi4wMDA0MjQyIDIxLjYyOTcxMTMsMjEuOTAxMzA0NyAyMS40MzkzMjE1LDIxLjcwMzMzOTMgQzIxLjI0OTE5NDksMjEuNTA1NTkyOSAyMS4xNTQxMDUyLDIxLjI3MTA2NjcgMjEuMTU0MTA1MiwyMS4wMDAxOTg0IEMyMS4xNTQxMDUyLDIwLjcyOTMzMDEgMjEuMjQ5MTk0OSwyMC40OTQ2OTQ0IDIxLjQzOTMyMTUsMjAuMjk3MDU3NSBDMjEuNjI5NjU4NywyMC4wOTkzMTExIDIxLjg1NDkzNzUsMTkuOTk5OTcyNiAyMi4xMTUzNjg0LDE5Ljk5OTk3MjYgQzIyLjM3NTc5OTMsMTkuOTk5OTcyNiAyMi42MDEyMzYsMjAuMDk5MjU2MyAyMi43OTE0Njc5LDIwLjI5NzA1NzUgQzIyLjk4MTgwNTEsMjAuNDk0NjM5NyAyMy4wNzcwNTI2LDIwLjcyOTMzMDEgMjMuMDc3MDUyNiwyMS4wMDAxOTg0IEMyMy4wNzcwNTI2LDIxLjI3MTA2NjcgMjIuOTgxOTYzLDIxLjUwNTUzODIgMjIuNzkxNDY3OSwyMS43MDMzMzkzIFoiIGlkPSJTaGFwZSIgZmlsbC1ydWxlPSJub256ZXJvIj48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik01Ljk1MDUxNjgzLDguNDcwNTQyNzkgTDkuNjkzMDI0ODcsOC40NzA1NDI3OSBMOS42OTMwMjQ4NywxNS4wNTg3NTk5IEM5LjY5MzAyNDg3LDE1LjMxMzYxNjkgOS43ODU2NTQzNiwxNS41MzQyNzMxIDkuOTcwNzU5NzQsMTUuNzIwNDcxMiBDMTAuMTU1OTY3NSwxNS45MDY1NjYyIDEwLjM3NTI3NzcsMTYgMTAuNjI4NTg3OSwxNiBMMTQuMzcxNDU0NCwxNiBDMTQuNjI0ODE1NywxNiAxNC44NDM5MjExLDE1LjkwNjYxNzcgMTUuMDI5MjgyNSwxNS43MjA0NzEyIEMxNS4yMTQzMzY3LDE1LjUzNDMyNDYgMTUuMzA2ODYzNywxNS4zMTM2Njg0IDE1LjMwNjg2MzcsMTUuMDU4NzU5OSBMMTUuMzA2ODYzNyw4LjQ3MDU0Mjc5IEwxOS4wNDk0NzQyLDguNDcwNTQyNzkgQzE5LjQ1ODk1OSw4LjQ3MDU0Mjc5IDE5Ljc0NjUyNTIsOC4yNzQzNTIzOCAxOS45MTE5Njc5LDcuODgyMzMyMTEgQzIwLjA3NzcxNzksNy41MDAwNDY2OCAyMC4wMDkzNTk1LDcuMTYxNzQ4MjggMTkuNzA3MzAyMyw2Ljg2NzU5MTQzIEwxMy4xNTc3NDY4LDAuMjc5NDc3MzMyIEMxMi45ODIxNjU2LDAuMDkzMTc2Mjc5NyAxMi43NjMxNjI2LDAgMTIuNDk5OTE4NywwIEMxMi4yMzY5MzA4LDAgMTIuMDE3NjIwNiwwLjA5MzE3NjI3OTcgMTEuODQyMDkwNiwwLjI3OTQ3NzMzMiBMNS4yOTI3Mzk4OSw2Ljg2NzU5MTQzIEM0Ljk5MDUyOTEzLDcuMTYxNzQ4MjggNC45MjIzNzU1Myw3LjQ5OTg0MDY1IDUuMDg3OTcxODgsNy44ODIzMzIxMSBDNS4yNTM4MjQyNCw4LjI3NDU1ODQxIDUuNTQxMjg4MDIsOC40NzA1NDI3OSA1Ljk1MDUxNjgzLDguNDcwNTQyNzkgWiIgaWQ9IlBhdGgiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==");
+            }
+            /*===========  End code for upload =============*/
